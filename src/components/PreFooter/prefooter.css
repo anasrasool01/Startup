@@ -1,0 +1,50 @@
+.prefooter {
+    background-color: #1a1a3d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 61px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.prefooter-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.prefooter-column h3 {
+    margin-bottom: 15px;
+}
+
+.prefooter-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.prefooter-column ul li:hover {
+    cursor: pointer;
+    color: bisque;
+}
+
+.prefooter-column ul li {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a:hover {
+    cursor: pointer;
+    color: bisque;
+}
+
+.social-icon {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
